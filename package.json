@@ -1,0 +1,20 @@
+{
+  "name": "searchable-private-state",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Dave Miner",
+  "license": "ISC",
+  "dependencies": {
+    "@aztec/accounts": "^0.28.0",
+    "@aztec/aztec.js": "^0.28.0",
+    "@aztec/noir-contracts.js": "^0.28.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {}
+}

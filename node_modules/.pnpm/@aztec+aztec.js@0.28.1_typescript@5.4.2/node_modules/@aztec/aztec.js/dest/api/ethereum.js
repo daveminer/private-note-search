@@ -1,0 +1,2 @@
+export { deployL1Contract, deployL1Contracts, } from '@aztec/ethereum';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZXRoZXJldW0uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvYXBpL2V0aGVyZXVtLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFDTCxnQkFBZ0IsRUFDaEIsaUJBQWlCLEdBR2xCLE1BQU0saUJBQWlCLENBQUMifQ==

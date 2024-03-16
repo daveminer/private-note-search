@@ -1,0 +1,17 @@
+import { ARCHIVE_TREE_ID, L1_TO_L2_MESSAGE_TREE_ID, NOTE_HASH_TREE_ID, NULLIFIER_TREE_ID, PUBLIC_DATA_TREE_ID, } from '@aztec/circuits.js';
+/**
+ * Defines the possible Merkle tree IDs.
+ * @remarks The MerkleTrees class expects these to start from zero and be in incremental order.
+ */
+export var MerkleTreeId;
+(function (MerkleTreeId) {
+    MerkleTreeId[MerkleTreeId["NULLIFIER_TREE"] = 0] = "NULLIFIER_TREE";
+    MerkleTreeId[MerkleTreeId["NOTE_HASH_TREE"] = 1] = "NOTE_HASH_TREE";
+    MerkleTreeId[MerkleTreeId["PUBLIC_DATA_TREE"] = 2] = "PUBLIC_DATA_TREE";
+    MerkleTreeId[MerkleTreeId["L1_TO_L2_MESSAGE_TREE"] = 3] = "L1_TO_L2_MESSAGE_TREE";
+    MerkleTreeId[MerkleTreeId["ARCHIVE"] = 4] = "ARCHIVE";
+})(MerkleTreeId || (MerkleTreeId = {}));
+export const merkleTreeIds = () => {
+    return Object.values(MerkleTreeId).filter((v) => !isNaN(Number(v)));
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWVya2xlX3RyZWVfaWQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9zcmMvbWVya2xlX3RyZWVfaWQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUNMLGVBQWUsRUFDZix3QkFBd0IsRUFDeEIsaUJBQWlCLEVBQ2pCLGlCQUFpQixFQUNqQixtQkFBbUIsR0FDcEIsTUFBTSxvQkFBb0IsQ0FBQztBQUU1Qjs7O0dBR0c7QUFDSCxNQUFNLENBQU4sSUFBWSxZQU1YO0FBTkQsV0FBWSxZQUFZO0lBQ3RCLG1FQUFrQyxDQUFBO0lBQ2xDLG1FQUFrQyxDQUFBO0lBQ2xDLHVFQUFzQyxDQUFBO0lBQ3RDLGlGQUFnRCxDQUFBO0lBQ2hELHFEQUF5QixDQUFBO0FBQzNCLENBQUMsRUFOVyxZQUFZLEtBQVosWUFBWSxRQU12QjtBQUVELE1BQU0sQ0FBQyxNQUFNLGFBQWEsR0FBRyxHQUFHLEVBQUU7SUFDaEMsT0FBTyxNQUFNLENBQUMsTUFBTSxDQUFDLFlBQVksQ0FBQyxDQUFDLE1BQU0sQ0FBQyxDQUFDLENBQUMsRUFBcUIsRUFBRSxDQUFDLENBQUMsS0FBSyxDQUFDLE1BQU0sQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUM7QUFDekYsQ0FBQyxDQUFDIn0=
