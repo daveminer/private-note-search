@@ -302,13 +302,13 @@ contract SearchablePrivNote {
     /// Unconstrained ///
 
     // This hasn't returned any values from spawn_searchable_note()
-    unconstrained fn read_searchable() -> pub [SearchablePrivNote; 1] {
+    unconstrained fn read_searchable() -> pub Field {
         let options = NoteViewerOptions::new().set_limit(1);
         let searchable_private_notes = storage.searchable_priv_notes.view_notes(options);
 
         let note = searchable_private_notes[0].unwrap_unchecked();
 
-        [note]
+        note.value.to_field()
     }
 
     unconstrained fn admin() -> pub Field {

@@ -1,0 +1,111 @@
+aztec_1     |
+aztec_1     |                _
+aztec_1     |     /\        | |
+aztec_1     |    /  \    ___| |_ ___  ___
+aztec_1     |   / /\ \  |_  / __/ _ \/ __|
+aztec_1     |  / ____ \  / /| ||  __/ (__
+aztec_1     | /_/___ \_\/___|\__\___|\___|
+aztec_1     |
+aztec_1     | https://github.com/AztecProtocol
+aztec_1     |
+aztec_1     |
+aztec_1     | Setting up Aztec Sandbox v0.28.1, please stand by...
+aztec_1     | node:lmdb Opening LMDB database at temporary location
+aztec_1     | kv-store:lmdb Opening LMDB database at temporary location
+aztec_1     | kv-store:lmdb Opening LMDB database at temporary location
+aztec_1     | pxe_service Added contract ContractClassRegisterer at 0x1ff58462bc433d2e277ca6371c796fcc2dbfae869edf87b60f7fdff335ae8baa
+aztec_1     | pxe_service Added contract ContractInstanceDeployer at 0x0bffa876f07f9fe1802579dfef599810202f9c25b9a2f58921064a267d1ad1d3
+aztec_1     | pxe_service Added contract GasToken at 0x00172847c5512e54f1299e84e95196ac398adcc39068ed534e853ae9b0487e72
+aztec_1     | pxe_service Started PXE connected to chain 31337 version 1
+aztec_1     | Setting up test accounts...
+aztec_1     | pxe_service Registered account 0x08d13936ea0ab52f57e96b06644950e143c4fe08162cd84fff63bc9135ce4726
+aztec_1     | pxe_service Registered account 0x0a574355180658536c6cd1c44d88f9e801c5cdab108725b7b48b6f03678383a0
+aztec_1     | pxe_service Registered account 0x061d4eb62cc7bbdceed2f329ae2f1c8fbd3b9323cb4c6907df564cca6559af3d
+aztec_1     | pxe_service Added contract SchnorrAccount at 0x08d13936ea0ab52f57e96b06644950e143c4fe08162cd84fff63bc9135ce4726
+aztec_1     | pxe_service Added contract SchnorrAccount at 0x0a574355180658536c6cd1c44d88f9e801c5cdab108725b7b48b6f03678383a0
+aztec_1     | pxe_service Added contract SchnorrAccount at 0x061d4eb62cc7bbdceed2f329ae2f1c8fbd3b9323cb4c6907df564cca6559af3d
+aztec_1     | node Simulating tx 1ffb75d1f7d1ca85f4b1a070c285ed23b6bd0e6f0fd0b3acacea6c6708686d97
+aztec_1     | node Simulated tx 1ffb75d1f7d1ca85f4b1a070c285ed23b6bd0e6f0fd0b3acacea6c6708686d97 succeeds
+aztec_1     | pxe_service Executed local simulation for 1ffb75d1f7d1ca85f4b1a070c285ed23b6bd0e6f0fd0b3acacea6c6708686d97
+aztec_1     | node Simulating tx 16f15155baad380458167cc98ffa7db4e896c7ead4d9659039e42a5e263cdcf3
+aztec_1     | node Simulated tx 16f15155baad380458167cc98ffa7db4e896c7ead4d9659039e42a5e263cdcf3 succeeds
+aztec_1     | pxe_service Executed local simulation for 16f15155baad380458167cc98ffa7db4e896c7ead4d9659039e42a5e263cdcf3
+aztec_1     | node Simulating tx 095238edb22813c6ad6ffe0d430433cc8552d9e264339044367ba7f23ec22f58
+aztec_1     | node Simulated tx 095238edb22813c6ad6ffe0d430433cc8552d9e264339044367ba7f23ec22f58 succeeds
+aztec_1     | pxe_service Executed local simulation for 095238edb22813c6ad6ffe0d430433cc8552d9e264339044367ba7f23ec22f58
+aztec_1     | pxe_service Sending transaction 1ffb75d1f7d1ca85f4b1a070c285ed23b6bd0e6f0fd0b3acacea6c6708686d97
+aztec_1     | node Received tx 1ffb75d1f7d1ca85f4b1a070c285ed23b6bd0e6f0fd0b3acacea6c6708686d97
+aztec_1     | pxe_service Sending transaction 16f15155baad380458167cc98ffa7db4e896c7ead4d9659039e42a5e263cdcf3
+aztec_1     | node Received tx 16f15155baad380458167cc98ffa7db4e896c7ead4d9659039e42a5e263cdcf3
+aztec_1     | pxe_service Sending transaction 095238edb22813c6ad6ffe0d430433cc8552d9e264339044367ba7f23ec22f58
+aztec_1     | node Received tx 095238edb22813c6ad6ffe0d430433cc8552d9e264339044367ba7f23ec22f58
+aztec_1     | tx_pool Adding tx with id 1ffb75d1f7d1ca85f4b1a070c285ed23b6bd0e6f0fd0b3acacea6c6708686d97 eventName=tx-added-to-pool txHash=1ffb75d1f7d1ca85f4b1a070c285ed23b6bd0e6f0fd0b3acacea6c6708686d97 encryptedLogCount=1 unencryptedLogCount=0 encryptedLogSize=316 unencryptedLogSize=8 newCommitmentCount=1 newNullifierCount=3 proofSize=0 size=14658 classRegisteredCount=0
+aztec_1     | tx_pool Adding tx with id 16f15155baad380458167cc98ffa7db4e896c7ead4d9659039e42a5e263cdcf3 eventName=tx-added-to-pool txHash=16f15155baad380458167cc98ffa7db4e896c7ead4d9659039e42a5e263cdcf3 encryptedLogCount=1 unencryptedLogCount=0 encryptedLogSize=316 unencryptedLogSize=8 newCommitmentCount=1 newNullifierCount=3 proofSize=0 size=14658 classRegisteredCount=0
+aztec_1     | tx_pool Adding tx with id 095238edb22813c6ad6ffe0d430433cc8552d9e264339044367ba7f23ec22f58 eventName=tx-added-to-pool txHash=095238edb22813c6ad6ffe0d430433cc8552d9e264339044367ba7f23ec22f58 encryptedLogCount=1 unencryptedLogCount=0 encryptedLogSize=316 unencryptedLogSize=8 newCommitmentCount=1 newNullifierCount=3 proofSize=0 size=14658 classRegisteredCount=0
+aztec_1     | sequencer Retrieved 3 txs from P2P pool
+aztec_1     | sequencer Building block 1 with 3 transactions
+aztec_1     | sequencer:publisher Block txs effects published, txsEffectsHash: 0x010dbbfbca2c9f5c33c403ad028a01599cffc17519b7a2ee7d0f9c50ac9e55fa
+aztec_1     | sequencer:publisher Published L2 block to L1 rollup contract gasPrice=2251345327 gasUsed=635251 transactionHash=0x1de7aad441866ae064d821f957c2fe3c6a11efeb3a5948c486714c74bbfb3b14 calldataGas=29108 calldataSize=2660 txCount=3 blockNumber=1 encryptedLogLength=952 encryptedLogCount=3 unencryptedLogCount=28 unencryptedLogSize=0 eventName=rollup-published-to-l1
+aztec_1     | sequencer Submitted rollup block 1 with 3 transactions
+aztec_1     | Initial Accounts:
+aztec_1     |
+aztec_1     |  Address: 0x08d13936ea0ab52f57e96b06644950e143c4fe08162cd84fff63bc9135ce4726
+aztec_1     |  Partial Address: 0x106d1afe5167a76d6d57137efc62a1705bf8e4a770a03cb656e36c63ff430df6
+aztec_1     |  Private Key: 0x2153536ff6628eee01cf4024889ff977a18d9fa61d0e414422f7681cf085c281
+aztec_1     |  Public Key: 0x27c20118733174347b8082f578a7d8fb84b3ad38be293715eee8119ee5cd8a6d0d6b7d8124b37359663e75bcd2756f544a93b821a06f8e33fba68cc8029794d9
+aztec_1     |
+aztec_1     |  Address: 0x0a574355180658536c6cd1c44d88f9e801c5cdab108725b7b48b6f03678383a0
+aztec_1     |  Partial Address: 0x083acfb5f92a03b5ce9819626ca7a97b5b8d80f6b085d00ce5bc0c0e85178ea8
+aztec_1     |  Private Key: 0x00aebd1b4be76efa44f5ee655c20bf9ea60f7ae44b9a7fd1fd9f189c7a0b0cda
+aztec_1     |  Public Key: 0x08145e8e8d46f51cda8d4c9cad81920236366abeafb8d387002bad879a3e87a81570b04ac829e4c007141d856d5a36d3b9c464e0f3c1c99cdbadaa6bb93f3257
+aztec_1     |
+aztec_1     |  Address: 0x061d4eb62cc7bbdceed2f329ae2f1c8fbd3b9323cb4c6907df564cca6559af3d
+aztec_1     |  Partial Address: 0x17ba3c7c2322ffda33488199a37a4814fbdf458f36c27cc1bacadad4fb6dc57f
+aztec_1     |  Private Key: 0x0f6addf0da06c33293df974a565b03d1ab096090d907d98055a8b7f4954e120c
+aztec_1     |  Public Key: 0x13e6151ea8e7386a5e7c4c5221047bf73d0b1b7a2ad14d22b7f73e57c1fa00c614bc6da69da1b581b09ee6cdc195e5d58ae4dce01b63bbb744e58f03855a94dd
+aztec_1     |
+aztec_1     |
+aztec_1     | Aztec Server listening on port 8080
+aztec_1     | pxe_service Added contract SearchablePrivNote at 0x270cc0b479d3304ed529c6bcc57870602d78fc987a0c671f40b3204a400f701b
+aztec_1     | 2024-03-18T23:07:32.264Z aztec:simulator:oracle ContractClassRegistered: [0x25fc36b946fb999f644c9b1dfb9f17d2282cebd47ca2b14b2d8e0cc735561916, 0x2d00a8eabf9d063c18515edeb0010a9926476d7047ce0dcbeb7532d42b0683b5, 0x0a9ec65a66b44bb85b9de2447ab825ca1cc4467c8b140f46420ae9d1fe709420, 0x1e020a5660ef5098bcd4a4fe0f7a54c86ccb9b3cfd01434bc6e2150317e7024c]
+aztec_1     | 2024-03-18T23:07:32.891Z aztec:simulator:oracle ContractInstanceDeployed: [0x0000000085864497636cf755ae7bde03f267ce01a520981c21c3682aaf82a631, 0x270cc0b479d3304ed529c6bcc57870602d78fc987a0c671f40b3204a400f701b, 0x0000000000000000000000000000000000000000000000000000000000000001, 0x0925c8858d540b8dfe8f00614dfa2d0d01aef7b25b618f8372ebc9f8814c72a9, 0x25fc36b946fb999f644c9b1dfb9f17d2282cebd47ca2b14b2d8e0cc735561916, 0x050cf8d05a0c16be012863f01eaeeb6f649babcd6e0b5b24c40940fe1d4b4ccd, 0x0000000000000000000000000000000000000000000000000000000000000000, 0x27b1d0839a5b23baf12a8d195b18ac288fcf401afb2f70b8a4b529ede5fa9fed, 0x0000000000000000000000000000000000000000000000000000000000000000]
+aztec_1     | node Simulating tx 1b6ee6d4261adb8d07c317aeb3f4c563ae696c788092089f59d99b9a51900294
+aztec_1     | node Simulated tx 1b6ee6d4261adb8d07c317aeb3f4c563ae696c788092089f59d99b9a51900294 succeeds
+aztec_1     | pxe_service Executed local simulation for 1b6ee6d4261adb8d07c317aeb3f4c563ae696c788092089f59d99b9a51900294
+aztec_1     | pxe_service Sending transaction 1b6ee6d4261adb8d07c317aeb3f4c563ae696c788092089f59d99b9a51900294
+aztec_1     | node Received tx 1b6ee6d4261adb8d07c317aeb3f4c563ae696c788092089f59d99b9a51900294
+aztec_1     | tx_pool Adding tx with id 1b6ee6d4261adb8d07c317aeb3f4c563ae696c788092089f59d99b9a51900294 eventName=tx-added-to-pool txHash=1b6ee6d4261adb8d07c317aeb3f4c563ae696c788092089f59d99b9a51900294 encryptedLogCount=0 unencryptedLogCount=2 encryptedLogSize=16 unencryptedLogSize=480552 newCommitmentCount=0 newNullifierCount=3 proofSize=0 size=497181 classRegisteredCount=0
+aztec_1     | sequencer Retrieved 1 txs from P2P pool
+aztec_1     | sequencer Building block 2 with 1 transactions
+aztec_1     | sequencer:publisher Block txs effects published, txsEffectsHash: 0xd6d658cbd1f4f3200c4d9872448002c645e97eb0c473ca8b417148df8ba65238
+aztec_1     | sequencer:publisher Published L2 block to L1 rollup contract gasPrice=2045808424 gasUsed=6118366 transactionHash=0x6e0e6227a89ada31b9db50c594cdc1d2d42388c33705f578295dcff887058b31 calldataGas=5546188 calldataSize=482500 txCount=1 blockNumber=2 encryptedLogLength=20 encryptedLogCount=0 unencryptedLogCount=480560 unencryptedLogSize=2 eventName=rollup-published-to-l1
+aztec_1     | sequencer Submitted rollup block 2 with 1 transactions
+aztec_1     | 2024-03-18T23:08:00.475Z aztec:simulator:oracle Searchable note created
+aztec_1     | 2024-03-18T23:08:00.475Z aztec:simulator:oracle 0x0000000000000000000000000000000000000000000000000000000000000001
+aztec_1     | 2024-03-18T23:08:00.476Z aztec:simulator:oracle 0x1dc20f9e89a282fa64bf396ec2059dc297de05759070794a7cf0f1b00271fae7
+aztec_1     | 2024-03-18T23:08:00.482Z aztec:simulator:oracle Searchable note insert attempted
+aztec_1     | node Simulating tx 1ae50d3235ed510d1e13a926d892e20a4a85f6fbc9d03f0379c97980b49f99f4
+aztec_1     | node Simulated tx 1ae50d3235ed510d1e13a926d892e20a4a85f6fbc9d03f0379c97980b49f99f4 succeeds
+aztec_1     | pxe_service Executed local simulation for 1ae50d3235ed510d1e13a926d892e20a4a85f6fbc9d03f0379c97980b49f99f4
+aztec_1     | pxe_service Sending transaction 1ae50d3235ed510d1e13a926d892e20a4a85f6fbc9d03f0379c97980b49f99f4
+aztec_1     | node Received tx 1ae50d3235ed510d1e13a926d892e20a4a85f6fbc9d03f0379c97980b49f99f4
+aztec_1     | tx_pool Adding tx with id 1ae50d3235ed510d1e13a926d892e20a4a85f6fbc9d03f0379c97980b49f99f4 eventName=tx-added-to-pool txHash=1ae50d3235ed510d1e13a926d892e20a4a85f6fbc9d03f0379c97980b49f99f4 encryptedLogCount=0 unencryptedLogCount=1 encryptedLogSize=12 unencryptedLogSize=120 newCommitmentCount=1 newNullifierCount=1 proofSize=0 size=14466 classRegisteredCount=0
+aztec_1     | sequencer Retrieved 1 txs from P2P pool
+aztec_1     | sequencer Building block 3 with 1 transactions
+aztec_1     | sequencer:publisher Block txs effects published, txsEffectsHash: 0x63bdecf43f565333ec231ae3bdd2d14475f5a8b55f5750195e3945bc3410bdd9
+aztec_1     | 2024-03-18T23:08:17.445Z aztec:simulator:oracle Note searched
+aztec_1     | 2024-03-18T23:08:17.446Z aztec:simulator:oracle 0x0000000000000000000000000000000000000000000000000000000000000000
+aztec_1     | 2024-03-18T23:08:17.446Z aztec:simulator:oracle 0x0000000000000000000000000000000000000000000000000000000000000000
+aztec_1     | node Simulating tx 01a1fcdefcf751f7daa8995932192d1908cfd3b76546913e64c4d9da5cd82b77
+aztec_1     | sequencer:publisher Published L2 block to L1 rollup contract gasPrice=1849103758 gasUsed=583506 transactionHash=0x9381f2ab61b7a940befc70bb2ed0180700d57692595badff62708b368201c3e8 calldataGas=11328 calldataSize=1476 txCount=1 blockNumber=3 encryptedLogLength=16 encryptedLogCount=0 unencryptedLogCount=124 unencryptedLogSize=1 eventName=rollup-published-to-l1
+aztec_1     | sequencer Submitted rollup block 3 with 1 transactions
+aztec_1     | node Simulated tx 01a1fcdefcf751f7daa8995932192d1908cfd3b76546913e64c4d9da5cd82b77 succeeds
+aztec_1     | pxe_service Executed local simulation for 01a1fcdefcf751f7daa8995932192d1908cfd3b76546913e64c4d9da5cd82b77
+aztec_1     | pxe_service Sending transaction 01a1fcdefcf751f7daa8995932192d1908cfd3b76546913e64c4d9da5cd82b77
+aztec_1     | node Received tx 01a1fcdefcf751f7daa8995932192d1908cfd3b76546913e64c4d9da5cd82b77
+aztec_1     | tx_pool Adding tx with id 01a1fcdefcf751f7daa8995932192d1908cfd3b76546913e64c4d9da5cd82b77 eventName=tx-added-to-pool txHash=01a1fcdefcf751f7daa8995932192d1908cfd3b76546913e64c4d9da5cd82b77 encryptedLogCount=0 unencryptedLogCount=0 encryptedLogSize=12 unencryptedLogSize=12 newCommitmentCount=0 newNullifierCount=1 proofSize=0 size=14358 classRegisteredCount=0
+aztec_1     | sequencer Retrieved 1 txs from P2P pool
+aztec_1     | sequencer Building block 4 with 1 transactions
+aztec_1     | sequencer:publisher Block txs effects published, txsEffectsHash: 0xd2fb90855d11a761ffa805270ae17105b158ed5c445a6052d4018723cdc3a45d
+aztec_1     | sequencer:publisher Published L2 block to L1 rollup contract gasPrice=1655045137 gasUsed=581782 transactionHash=0xbe26160ac4b8d079697c16e7bcdcabb61e5086e63f8eae8ec179572792f473f2 calldataGas=9604 calldataSize=1348 txCount=1 blockNumber=4 encryptedLogLength=16 encryptedLogCount=0 unencryptedLogCount=16 unencryptedLogSize=0 eventName=rollup-published-to-l1
+aztec_1     | sequencer Submitted rollup block 4 with 1 transactions
